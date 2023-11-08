@@ -41,7 +41,7 @@ def menu():
 
 
 # handle rerun
-def rerun():  # Handle rerun function
+def rerun():
 
     choice1 = input("\nWould you like to play again Y|N?\n").upper()
 
@@ -68,7 +68,7 @@ def hint():
     if choice == "B":
         menu()
     else:
-        print("Sorry user, the only option is 'b'")
+        print("Sorry user, the only option is 'b'\n")
         hint()
 
 
